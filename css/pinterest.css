@@ -1,0 +1,177 @@
+@import url(styles.css);
+
+#demo {
+position: relative;
+max-width: 100%;
+width: 100%;
+}
+img {
+   /*transform: translateY(10%);*/
+max-width: 100%;
+height: auto;
+}
+.white-panel {
+position: absolute;
+background: white;
+box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+padding: 10px;
+}
+.row1 {
+    margin-top: 8%;
+}
+.white-panel h1 {
+font-size: 1em;
+}
+.white-panel h1 a {
+color: #A92733;
+}
+.white-panel:hover {
+box-shadow: 1px 1px 10px rgba(0,0,0,0.5);
+margin-top: -5px;
+-webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+img.navbar-brand {
+width: 3%;
+max-width: 3%;
+height: auto;
+    border-radius: 50%;
+
+}
+
+#uno {
+    background: red;
+}
+
+a {
+ text-align: center;  
+    bottom: auto;
+}
+
+.regla
+{
+  
+    transform: translateY(-500px)translateX(700px);
+}
+
+
+
+/*banner */
+section {
+    
+	width: 100%;
+margin-top: auto;
+}
+
+div .bane
+{
+ margin-top: -50%;   
+}
+#banner{
+	
+position: relative;
+}
+/* mejorar o aliñar la imagen */
+#banner{
+	margin-top: 100px;
+position: relative;
+}
+/* mejorar o aliñar la imagen */
+#banner img{
+
+	width: 100%;
+	height: 50%;
+}
+/* las letras se van a posicionar de acuerdo a banner  con absolute y banner con relative */
+.contenido {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-75%) translateY(-80%);
+    color: #fff;
+}
+
+/*las letras de Multiventas y servicios*/
+#banner h2 {
+
+	font-size: 30px;
+}
+/*vamos a mejorar la etiqueta descubre mas del banner*/
+.contenido a {
+ display: block;
+    width: 130px;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+}
+/*el efecto hover para el interior de la etiqueta descubra mas*/
+.contenido a:hover {
+	background: rgba(51,51,51,0.5);
+}
+/*las letras de Multiventas y servicios a partir de 480 px va a umentar de tamaño*/
+
+/*color para detalle1*/
+.fondouno-product{
+    background: blue;
+    border-radius: 2%;
+    
+}
+
+
+/*carrito*/
+
+img.carrito{
+    background: chocolate;
+    color: chocolate;
+    border-bottom:50px; 
+    
+flex-wrap: wrap;
+  
+
+}
+.fondo-product  {
+    
+background: #212121;
+
+      padding: 20px;
+  
+    border-radius: 2%;
+}
+/* h2,p{
+    color:cornflowerblue;
+    margin: 10px;
+}*/
+.ca {
+    background: black;
+     position:relative;
+ right: -120%;
+    left:120%;
+    top:-590px;
+
+			color:white;
+			text-decoration: none;
+                        padding: 10px 20px;
+                          line-height: normal;
+                          font-size: 20px;
+                          font-weight: bold;
+                  -webkit-transition: 500ms ease;
+                  -o-transition: 500ms ease;
+                  transition: all 500ms ease;
+
+    
+}
+/*contactenos*/
+div.boton {
+   padding: 20px;
+   left: 150px;
+  position: absolute;
+    
+}
+  
+ /*footer */  
+
